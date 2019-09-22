@@ -9,7 +9,7 @@ namespace Sermo.UI.Contracts
     public interface IRoomViewModelReader
     {
         IEnumerable<RoomViewModel> GetAllRooms();
-
+        // Changes Sprint 1 -- "I want to create rooms for categorizing conversations." -Julie Braford
         IEnumerable<MessageViewModel> GetRoomMessages(int roomID);
     }
 }

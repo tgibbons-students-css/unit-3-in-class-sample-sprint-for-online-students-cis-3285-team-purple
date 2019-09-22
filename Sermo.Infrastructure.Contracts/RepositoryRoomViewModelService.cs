@@ -45,6 +45,7 @@ namespace Sermo.UI.Controllers
                 roomMessages.Add(mapper.MapMessageRecordToMessageViewModel(messageRecord));
             }
             return roomMessages;
+            //Changes Sprint 1 -- I want to view the messages that have been sent to a room. --Julie Braford
         }
 
         public void CreateRoom(RoomViewModel roomViewModel)
