@@ -75,6 +75,7 @@ namespace Sermo.UnitTests
 
             Assert.That(isValid, Is.False);
             // Changes Sprint 1 -- "I want to create rooms for categorizing conversations." -Julie Braford
+            //Changes Sprint 2 - I want to filter message content so that it is appropriate. --Julie Braford
         }
 
         [Test]
