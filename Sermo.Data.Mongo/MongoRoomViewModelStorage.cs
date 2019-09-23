@@ -36,6 +36,8 @@ namespace Sermo.Data.Mongo
             var messageQuery = Query<MessageViewModel>.EQ(viewModel => viewModel.RoomID, roomID);
             var messagesCollection = GetMessagesCollection();
             return messagesCollection.Find(messageQuery);
+            
+            // Changes for Sprint 2 -- I want to send markdown that will be correctly formatted -- Derek Shaheen
         }
 
         public void AddMessage(MessageViewModel messageViewModel)
@@ -49,6 +51,8 @@ namespace Sermo.Data.Mongo
             var database = GetDatabase();
             var messagesCollection = database.GetCollection<MessageViewModel>(MessagesCollection);
             return messagesCollection;
+            
+            // Changes for Sprint 2 -- I want to send markdown that will be correctly formatted -- Derek Shaheen
         }
 
         private MongoCollection<RoomViewModel> GetRoomsCollection()

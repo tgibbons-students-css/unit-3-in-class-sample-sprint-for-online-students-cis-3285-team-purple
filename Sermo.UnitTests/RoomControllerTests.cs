@@ -45,6 +45,8 @@ namespace Sermo.UnitTests
             var result = controller.Create();
 
             Assert.That(result, Is.InstanceOf<ViewResult>());
+            
+            // Changes for Sprint 1 -- I want to create rooms for categorizing conversations -- Derek Shaheen
         }
 
         [Test]
@@ -73,6 +75,10 @@ namespace Sermo.UnitTests
             var isValid = Validator.TryValidateObject(viewModel, context, results);
 
             Assert.That(isValid, Is.False);
+            
+            
+            // Changes for Sprint 1 -- I want to create rooms for categorizing conversations -- Derek Shaheen
+            // Changes for Sprint 2 -- I want to send markdown that will be correctly formatted -- Derek Shaheen
         }
 
         [Test]

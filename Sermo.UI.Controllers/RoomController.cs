@@ -55,6 +55,8 @@ namespace Sermo.UI.Controllers
             }
 
             return result;
+            // Changes for Sprint 1 -- I want to create rooms for categorizing conversations -- Derek Shaheen
+            // Changes for Sprint 1 -- I want to view a list of rooms that represent conversations -- Derek Shaheen
         }
 
         [HttpGet]
@@ -82,6 +84,7 @@ namespace Sermo.UI.Controllers
             }
 
             return result;
+            // Changes for Sprint 1 -- I want to view a list of rooms that represent conversations -- Derek Shaheen
         }
 
         private readonly IRoomViewModelReader reader;

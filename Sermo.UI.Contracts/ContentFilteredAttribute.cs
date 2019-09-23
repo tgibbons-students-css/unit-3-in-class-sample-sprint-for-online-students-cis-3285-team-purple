@@ -17,6 +17,8 @@ namespace Sermo.UI.Contracts
             "frabjous",
             "bandersnatch"
         };
+        
+        // Changes for Sprint 2 -- I want to send markdown that will be correctly formatted -- Derek Shaheen
 
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
