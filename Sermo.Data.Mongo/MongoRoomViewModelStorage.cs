@@ -37,6 +37,7 @@ namespace Sermo.Data.Mongo
             var messagesCollection = GetMessagesCollection();
             return messagesCollection.Find(messageQuery);
         //Changes Sprint 2 - I want to serve hundreds of users concurrently -- Julie Braford
+        //Changes Sprint 2 - I want to serve hundreds of users concurrently -- Derek Shaheen
         }
 
         public void AddMessage(MessageViewModel messageViewModel)
@@ -51,6 +52,7 @@ namespace Sermo.Data.Mongo
             var messagesCollection = database.GetCollection<MessageViewModel>(MessagesCollection);
             return messagesCollection;
             //Changes Sprint 2 - I want to serve hundreds of users concurrently -- Julie Braford
+            //Changes Sprint 2 - I want to serve hundreds of users concurrently -- Derek Shaheen
         }
 
         private MongoCollection<RoomViewModel> GetRoomsCollection()

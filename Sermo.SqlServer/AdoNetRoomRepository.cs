@@ -45,6 +45,7 @@ namespace Sermo.Data.AdoNet
                 }
             }
          // Changes Sprint 1 -- "I want to create rooms for categorizing conversations." -Julie Braford
+         // Changes Sprint 1 -- "I want to create rooms for categorizing conversations." -- Derek Shaheen
         }
 
         public IEnumerable<RoomRecord> GetAllRooms()
@@ -76,6 +77,7 @@ namespace Sermo.Data.AdoNet
 
             return allRooms;
             // Changes Sprint 1 -- "I want to create rooms for categorizing conversations." -Julie Braford
+            // Changes Sprint 1 -- "I want to create rooms for categorizing conversations." -- Derek Shaheen
         }
 
         private readonly IApplicationSettings applicationSettings;

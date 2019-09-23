@@ -34,6 +34,7 @@ namespace Sermo.Markdown
 
             return roomMessages;
             //Changes Sprint 2 - I want to send markdown that will be correctly formatted. --Julie Braford
+            //Changes Sprint 2 - I want to send markdown that will be correctly formatted. -- Derek Shaheen
         }
 
         private readonly IRoomViewModelReader @delegate;

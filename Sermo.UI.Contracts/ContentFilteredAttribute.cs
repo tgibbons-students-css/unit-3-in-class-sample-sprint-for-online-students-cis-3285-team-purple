@@ -18,6 +18,8 @@ namespace Sermo.UI.Contracts
             "bandersnatch"
         };
         //Changes Sprint 2 - I want to filter message content so that it is appropriate. --Julie Braford
+        //Changes Sprint 2 - I want to filter message content so that it is appropriate. -- Derek Shaheen
+
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var validationResult = ValidationResult.Success;

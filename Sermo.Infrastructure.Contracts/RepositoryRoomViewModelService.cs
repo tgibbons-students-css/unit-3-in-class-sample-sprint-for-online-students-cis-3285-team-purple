@@ -34,6 +34,7 @@ namespace Sermo.UI.Controllers
             }
             return allRooms;
             //Changes Sprint 1 -- "I want to view a list of rooms that represent conversations." --  Julie Braford
+            //Changes Sprint 1 -- "I want to view a list of rooms that represent conversations." --  Derek Shaheen
         }
 
         public IEnumerable<MessageViewModel> GetRoomMessages(int roomID)
@@ -46,6 +47,7 @@ namespace Sermo.UI.Controllers
             }
             return roomMessages;
             //Changes Sprint 1 -- I want to view the messages that have been sent to a room. --Julie Braford
+            //Changes Sprint 1 -- I want to view the messages that have been sent to a room. -- Derek Shaheen
         }
 
         public void CreateRoom(RoomViewModel roomViewModel)
@@ -53,6 +55,7 @@ namespace Sermo.UI.Controllers
             var roomRecord = mapper.MapRoomViewModelToRoomRecord(roomViewModel);
             roomRepository.CreateRoom(roomRecord.Name);
             //Changes Sprint 1 -- "I want to view a list of rooms that represent conversations." --  Julie Braford
+            //Changes Sprint 1 -- "I want to view a list of rooms that represent conversations." --  Derek Shaheen
         }
 
         public void AddMessage(MessageViewModel messageViewModel)
