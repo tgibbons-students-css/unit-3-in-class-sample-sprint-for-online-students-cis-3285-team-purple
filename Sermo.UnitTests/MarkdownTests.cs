@@ -53,8 +53,7 @@ namespace Sermo.UnitTests
                 message1
             };
             mockRoomViewModelReader.Setup(reader => reader.GetRoomMessages(It.IsAny<int>())).Returns(roomMessages);
-            
-            // Changes for Sprint 2 -- I want to send markdown that will be correctly formatted -- Derek Shaheen
+            //Changes Sprint 2 - I want to send markdown that will be correctly formatted. --Julie Braford
         }
 
         private MessageViewModel message1;

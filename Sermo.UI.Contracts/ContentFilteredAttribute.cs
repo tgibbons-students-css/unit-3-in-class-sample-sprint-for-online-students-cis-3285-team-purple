@@ -17,9 +17,7 @@ namespace Sermo.UI.Contracts
             "frabjous",
             "bandersnatch"
         };
-        
-        // Changes for Sprint 2 -- I want to send markdown that will be correctly formatted -- Derek Shaheen
-
+        //Changes Sprint 2 - I want to filter message content so that it is appropriate. --Julie Braford
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var validationResult = ValidationResult.Success;

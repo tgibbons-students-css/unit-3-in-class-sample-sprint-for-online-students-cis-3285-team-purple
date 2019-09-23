@@ -36,6 +36,7 @@ namespace Sermo.UI.Controllers
             return View(new RoomViewModel());
             // Changes Sprint 1 --  I want to create rooms for categorizing conversations -- Tom Gibbons
             // Changes Sprint 1 --  Made another change -- Tom Gibbons
+            // Changes Sprint 1 -- "I want to create rooms for categorizing conversations." -Julie Braford
         }
 
         [HttpPost]
@@ -55,8 +56,7 @@ namespace Sermo.UI.Controllers
             }
 
             return result;
-            // Changes for Sprint 1 -- I want to create rooms for categorizing conversations -- Derek Shaheen
-            // Changes for Sprint 1 -- I want to view a list of rooms that represent conversations -- Derek Shaheen
+            //Changes Sprint 1 -- "I want to view a list of rooms that represent conversations." --  Julie Braford
         }
 
         [HttpGet]
@@ -84,7 +84,7 @@ namespace Sermo.UI.Controllers
             }
 
             return result;
-            // Changes for Sprint 1 -- I want to view a list of rooms that represent conversations -- Derek Shaheen
+            //Changes Sprint 1 - I want to send plain text messages to other room members. --Julie Braford
         }
 
         private readonly IRoomViewModelReader reader;
